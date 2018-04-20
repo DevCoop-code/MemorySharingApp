@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009DB5</color>
+    <color name="colorPrimaryDark">#009DB5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#EAEAEA</color>
+    <color name="navigationBarColor">#009DB5</color>
+
+    <color name="listViewTextColor">#1F5F68</color>
+
+    <color name="cardViewBackgroundColor">#EAEAEA</color>
+
+    <color name="textColor">#1F5F68</color>
+    <color name="dialogbackground">#FFFFFF</color>
+</resources>

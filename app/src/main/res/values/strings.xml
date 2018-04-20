@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Reminiscence</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="app_intro_in_login">현재 내가 발을 딛고 있는 장소는 누군가에겐 아름다운 추억의 장소였을 수 있습니다.
+    현재 위치에서 일어났었던 다른 이들의 아름다운 추억들을 확인하시고 나만의 추억을 현재 위치에 새겨주세요</string>
+
+    <string name="title_section1">Memories</string>
+    <string name="title_section2">My Photos</string>
+    <string name="title_section3">My Account Setting</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">version</string>
+
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">CANCEL</string>
+    <string name="alert_dialog_title">삭제하시겠습니까?</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="sharing_memory">사진에 얽힌 당신의 추억을 공유하세요</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_nickname">Name</string>
+    <string name="action_sign_in">회원가입</string>
+    <string name="action_sign_in_short">로그인</string>
+    <string name="error_invalid_email">유효하지 않은 이메일입니다</string>
+    <string name="error_exists_email">이메일을 입력해주세요</string>
+    <string name="error_invalid_password">비밀번호가 너무 짧습니다</string>
+    <string name="error_invalid_nickname">닉네임을 10글자 이내로 만들어주세요</string>
+    <string name="error_incorrect_password">비밀번호가 일치하지 않습니다</string>
+    <string name="error_field_required">필수적으로 입력해야 하는 부분입니다</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="intro_reminiscence">한장의 사진에는 하나의 소중한 추억이 담겨 있습니다.
+        당신의 소중한 사진에 추억을 저장하고 많은 사람들과 공유해보세요</string>
+
+    <string name="menu_refresh">Refresh</string>
+    <string name="upload_data">추억공유</string>
+
+    <string name="currentPassword">현재 비밀번호를 입력하세요</string>
+    <string name="changePassword">바꿀 비밀번호를 입력하세요</string>
+    <string name="changePasswordCheck">바꿀 비밀번호를 한번 더 입력하세요</string>
+
+    <string name="saveMenuBtn">저장</string>
+
+    <string name="notMatching">일치하지 않습니다</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/showimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:zoomage_restrictBounds="false"
+        app:zoomage_animateOnReset="true"
+        app:zoomage_autoResetMode="UNDER"
+        app:zoomage_autoCenter="true"
+        app:zoomage_zoomable="true"
+        app:zoomage_translatable="true"
+        app:zoomage_minScale="0.6"
+        app:zoomage_maxScale="8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <ImageButton
+            android:id="@+id/memory_share_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_share_black_24dp"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/memory_write_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_write_memory_black_24dp"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/memory_comment_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_comment_black_24dp"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/memory_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_delete_black_24dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.androidgamedev.com.reminiscence.UploadMemoryActivity">
+    <item
+        android:id="@+id/upload_pic"
+        app:showAsAction="always"
+        android:title="@string/upload_data"
+        />
+</menu>

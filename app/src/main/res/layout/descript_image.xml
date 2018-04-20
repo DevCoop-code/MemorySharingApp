@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="한장의 사진에는 하나의 추억이 담겨 있습니다. \n당신의 추억을 함께 저장하세요"
+        android:textColor="@color/listViewTextColor"/>
+    <EditText
+        android:id="@+id/descrip_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/listViewTextColor"/>
+
+    <Button
+        android:id="@+id/save_des_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="저장"
+        android:padding="10dp"/>
+</LinearLayout>
