@@ -1,7 +1,11 @@
 # MemorySharingApp
 Android Application 
 Sharing memory in your picture with your nearest people.
-![img1](./images/img1.png)![img2](./images/img2.png)![img3](./images/img3.png)
+
+![img1](./images/img1.png)
+![img2](./images/img2.png)
+![img3](./images/img3.png)
+
 ## Development Environment
 ### Server
 #### WAS
