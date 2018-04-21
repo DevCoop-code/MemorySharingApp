@@ -8,6 +8,7 @@ Sharing memory in your picture with your nearest people.
 
 ## Development Environment
 ### Server
+[Server Side](https://github.com/hankyojeong/MemorySharingApp-Server/tree/master)
 #### WAS
 * Tomcat v8.5
 * Servlet v3.1.0
